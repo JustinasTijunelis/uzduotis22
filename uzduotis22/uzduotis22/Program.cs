@@ -6,8 +6,15 @@ namespace uzduotis22
     {
         static void Main(string[] args)
         {
-            double x = 4 * 3.14 * 6371;
+            // 1 uzduotis 
+            double r = 6371;
+
+            double x = 4 * Math.PI * r;
             Console.WriteLine($"Rutulio pavirsiaus plotas: {x}");
+
+            //2 uzduotis
+            double y = (4 / 3) * Math.PI * (r * r * r);
+            Console.WriteLine($"Rutulio turis {y}");
         }
     }
 }
