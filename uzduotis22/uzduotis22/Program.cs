@@ -15,6 +15,8 @@ namespace uzduotis22
             //2 uzduotis
             double y = (4 / 3) * Math.PI * (r * r * r);
             Console.WriteLine($"Rutulio turis {y}");
+
+            //3 uzduotis
         }
     }
 }
